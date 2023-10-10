@@ -27,3 +27,27 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+img {
+  width: 100%;
+}
+
+@media all and (min-width: 778px) {
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .col {
+    flex: 1;
+  }
+  
+  .col2 {
+    flex: 2;
+  }
+
+  .brown-box {
+    background-color: brown;
+    padding: 10px 40px;
+  }
+}
